@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Friends-->
         <scene sceneID="Kio-vY-XUm">
             <objects>
                 <viewController id="JVa-C1-7Rn" sceneMemberID="viewController">
@@ -20,13 +20,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="kIj-sh-W5J"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="pT1-eA-vEr"/>
+                    <tabBarItem key="tabBarItem" title="Friends" id="pT1-eA-vEr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z90-UQ-vhy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="817" y="-365"/>
         </scene>
-        <!--Item-->
+        <!--Scan-->
         <scene sceneID="oMl-Ke-pfu">
             <objects>
                 <viewController id="czS-Sb-L6a" sceneMemberID="viewController">
@@ -36,13 +36,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="2aw-jE-8gg"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="WCN-Bz-NUw"/>
+                    <tabBarItem key="tabBarItem" title="Scan" id="WCN-Bz-NUw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jc3-Wh-3Vy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1499" y="-650"/>
         </scene>
-        <!--Item 1-->
+        <!--Show-->
         <scene sceneID="gCR-Ll-cPK">
             <objects>
                 <viewController id="1e7-ry-0LN" sceneMemberID="viewController">
@@ -52,7 +52,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="H3g-1r-G8q"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="Ixc-gc-gdn"/>
+                    <tabBarItem key="tabBarItem" title="Show" id="Ixc-gc-gdn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Skk-TM-aZ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
