@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8360EF6B203B9BBB00388882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8360EF6A203B9BBB00388882 /* AppDelegate.swift */; };
-		8360EF6D203B9BBB00388882 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8360EF6C203B9BBB00388882 /* RootViewController.swift */; };
-		8360EF6F203B9BBC00388882 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8360EF6E203B9BBC00388882 /* DataViewController.swift */; };
-		8360EF71203B9BBC00388882 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8360EF70203B9BBC00388882 /* ModelController.swift */; };
 		8360EF74203B9BBC00388882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8360EF72203B9BBC00388882 /* Main.storyboard */; };
 		8360EF76203B9BBC00388882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8360EF75203B9BBC00388882 /* Assets.xcassets */; };
 		8360EF79203B9BBC00388882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8360EF77203B9BBC00388882 /* LaunchScreen.storyboard */; };
 		8360EF84203B9BBC00388882 /* SoshaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8360EF83203B9BBC00388882 /* SoshaTests.swift */; };
+		8360EFD3204F9FEE00388882 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8360EFD2204F9FEE00388882 /* FirstViewController.swift */; };
+		8360EFD5204FA01700388882 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8360EFD4204FA01700388882 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,9 +29,6 @@
 /* Begin PBXFileReference section */
 		8360EF67203B9BBB00388882 /* Sosha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sosha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8360EF6A203B9BBB00388882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8360EF6C203B9BBB00388882 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		8360EF6E203B9BBC00388882 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		8360EF70203B9BBC00388882 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		8360EF73203B9BBC00388882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8360EF75203B9BBC00388882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8360EF78203B9BBC00388882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +36,8 @@
 		8360EF7F203B9BBC00388882 /* SoshaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoshaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8360EF83203B9BBC00388882 /* SoshaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoshaTests.swift; sourceTree = "<group>"; };
 		8360EF85203B9BBC00388882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8360EFD2204F9FEE00388882 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		8360EFD4204FA01700388882 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,13 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				8360EF6A203B9BBB00388882 /* AppDelegate.swift */,
-				8360EF6C203B9BBB00388882 /* RootViewController.swift */,
-				8360EF6E203B9BBC00388882 /* DataViewController.swift */,
-				8360EF70203B9BBC00388882 /* ModelController.swift */,
 				8360EF72203B9BBC00388882 /* Main.storyboard */,
 				8360EF75203B9BBC00388882 /* Assets.xcassets */,
 				8360EF77203B9BBC00388882 /* LaunchScreen.storyboard */,
 				8360EF7A203B9BBC00388882 /* Info.plist */,
+				8360EFD2204F9FEE00388882 /* FirstViewController.swift */,
+				8360EFD4204FA01700388882 /* SecondViewController.swift */,
 			);
 			path = Sosha;
 			sourceTree = "<group>";
@@ -205,10 +202,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8360EF6D203B9BBB00388882 /* RootViewController.swift in Sources */,
-				8360EF71203B9BBC00388882 /* ModelController.swift in Sources */,
-				8360EF6F203B9BBC00388882 /* DataViewController.swift in Sources */,
+				8360EFD5204FA01700388882 /* SecondViewController.swift in Sources */,
 				8360EF6B203B9BBB00388882 /* AppDelegate.swift in Sources */,
+				8360EFD3204F9FEE00388882 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +358,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRFR32YPKA;
 				INFOPLIST_FILE = Sosha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rayherbert.Sosha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -376,7 +374,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRFR32YPKA;
 				INFOPLIST_FILE = Sosha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rayherbert.Sosha;
 				PRODUCT_NAME = "$(TARGET_NAME)";

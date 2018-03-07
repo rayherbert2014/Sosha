@@ -1,34 +1,26 @@
 //
-//  DataViewController.swift
-//  Sosha
+//  SecondViewController.swift
+//  Views
 //
-//  Created by Ray Herbert on 2/19/18.
+//  Created by Ray Herbert on 3/1/18.
 //  Copyright © 2018 Ray Herbert. All rights reserved.
 //
 
 import UIKit
 
-class DataViewController: UIViewController {
-
-    @IBOutlet weak var dataLabel: UILabel!
-    var dataObject: String = ""
-
-
+class SecondViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        self.dataLabel!.text = dataObject
-    }
-
-
+    
+    
 }
+
 
