@@ -25,11 +25,20 @@
                                     <segue destination="1tI-i5-b09" kind="show" id="I08-hK-bDV"/>
                                 </connections>
                             </button>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ar2-lO-l4L">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Registration Information" id="imz-hH-Ud5"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="ar2-lO-l4L" firstAttribute="trailing" secondItem="EGf-OM-us1" secondAttribute="trailing" id="1l1-pW-qnt"/>
                             <constraint firstItem="Pwv-2R-Nsa" firstAttribute="top" secondItem="EGf-OM-us1" secondAttribute="top" id="8Xg-Le-Zzr"/>
                             <constraint firstItem="EGf-OM-us1" firstAttribute="trailing" secondItem="Pwv-2R-Nsa" secondAttribute="trailing" id="CmO-Ri-cKm"/>
+                            <constraint firstItem="ar2-lO-l4L" firstAttribute="leading" secondItem="EGf-OM-us1" secondAttribute="leading" id="GY6-5P-PaN"/>
+                            <constraint firstItem="ar2-lO-l4L" firstAttribute="top" secondItem="EGf-OM-us1" secondAttribute="top" id="duR-cu-JSx"/>
                             <constraint firstItem="Pwv-2R-Nsa" firstAttribute="top" secondItem="EGf-OM-us1" secondAttribute="top" id="hcD-2f-bxu"/>
                             <constraint firstItem="Pwv-2R-Nsa" firstAttribute="leading" secondItem="EGf-OM-us1" secondAttribute="leading" id="jQQ-Lv-u68"/>
                             <constraint firstItem="EGf-OM-us1" firstAttribute="bottom" secondItem="Pwv-2R-Nsa" secondAttribute="bottom" id="ucT-oy-k31"/>
@@ -48,7 +57,20 @@
                     <view key="view" contentMode="scaleToFill" id="dKz-Lg-pyU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6U5-88-dfH">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Sosha" id="to3-Xy-K0I"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6U5-88-dfH" firstAttribute="leading" secondItem="F1h-yD-GrN" secondAttribute="leading" id="1yH-JY-JOL"/>
+                            <constraint firstItem="6U5-88-dfH" firstAttribute="top" secondItem="F1h-yD-GrN" secondAttribute="top" id="U6w-dv-DSN"/>
+                            <constraint firstItem="6U5-88-dfH" firstAttribute="trailing" secondItem="F1h-yD-GrN" secondAttribute="trailing" id="fuU-fK-hKd"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="F1h-yD-GrN"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Friends" id="LGa-Iy-ZeU"/>
@@ -64,7 +86,20 @@
                     <view key="view" contentMode="scaleToFill" id="vyM-dv-M1C">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sh1-Yv-cvU">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Sosha" id="4Ag-nK-Toj"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sh1-Yv-cvU" firstAttribute="leading" secondItem="BiH-pk-PNH" secondAttribute="leading" id="0Jo-YA-ZW0"/>
+                            <constraint firstItem="sh1-Yv-cvU" firstAttribute="trailing" secondItem="BiH-pk-PNH" secondAttribute="trailing" id="DEI-bd-4XU"/>
+                            <constraint firstItem="sh1-Yv-cvU" firstAttribute="top" secondItem="BiH-pk-PNH" secondAttribute="top" id="KhM-tX-kbf"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="BiH-pk-PNH"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Scan" id="00X-c4-ic6"/>
@@ -80,7 +115,20 @@
                     <view key="view" contentMode="scaleToFill" id="poP-eo-6Of">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4tK-Xf-FAb">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Sosha" id="r7o-d8-5N6"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4tK-Xf-FAb" firstAttribute="top" secondItem="Psq-7M-fUh" secondAttribute="top" id="Utd-Pw-mR5"/>
+                            <constraint firstItem="4tK-Xf-FAb" firstAttribute="leading" secondItem="Psq-7M-fUh" secondAttribute="leading" id="j0E-DJ-pPn"/>
+                            <constraint firstItem="4tK-Xf-FAb" firstAttribute="trailing" secondItem="Psq-7M-fUh" secondAttribute="trailing" id="zO6-ct-MhR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Psq-7M-fUh"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Show" id="O0H-YZ-xwu"/>
