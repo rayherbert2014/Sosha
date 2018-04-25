@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		833B17B920902AC100BE49BB /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833B17B820902AC100BE49BB /* Navigation.storyboard */; };
 		8360EF6B203B9BBB00388882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8360EF6A203B9BBB00388882 /* AppDelegate.swift */; };
 		8360EF74203B9BBC00388882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8360EF72203B9BBC00388882 /* Main.storyboard */; };
 		8360EF76203B9BBC00388882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8360EF75203B9BBC00388882 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		833B17B820902AC100BE49BB /* Navigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Navigation.storyboard; sourceTree = "<group>"; };
 		8360EF67203B9BBB00388882 /* Sosha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sosha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8360EF6A203B9BBB00388882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8360EF73203B9BBC00388882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				8360EF7A203B9BBC00388882 /* Info.plist */,
 				8360EFD2204F9FEE00388882 /* FirstViewController.swift */,
 				8360EFD4204FA01700388882 /* SecondViewController.swift */,
+				833B17B820902AC100BE49BB /* Navigation.storyboard */,
 			);
 			path = Sosha;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833B17B920902AC100BE49BB /* Navigation.storyboard in Resources */,
 				8360EF79203B9BBC00388882 /* LaunchScreen.storyboard in Resources */,
 				8360EF76203B9BBC00388882 /* Assets.xcassets in Resources */,
 				8360EF74203B9BBC00388882 /* Main.storyboard in Resources */,

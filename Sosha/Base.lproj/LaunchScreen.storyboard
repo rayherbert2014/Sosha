@@ -1,11 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6D3-lX-Gxm">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes/>
+    <customFonts key="customFonts">
+        <array key="Savoye.ttc">
+            <string>SavoyeLetPlain</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="bmz-Qm-2J0">
+            <objects>
+                <viewController id="6D3-lX-Gxm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D9Q-VU-Wjk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sosha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ek0-Fz-lTi">
+                                <rect key="frame" x="99" y="359" width="197" height="125"/>
+                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="105"/>
+                                <color key="textColor" red="0.0020949700264254406" green="0.06755408440049368" blue="0.78337516191709844" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sosha" translatesAutoresizingMaskIntoConstraints="NO" id="dEa-KT-5YG">
+                                <rect key="frame" x="67" y="67" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="goy-mw-qWU"/>
+                                    <constraint firstAttribute="width" constant="240" id="pT3-Jv-hpu"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.0012330039323594248" green="0.039759257011839452" blue="0.46105893782383423" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Lzt-nA-dr4" firstAttribute="trailing" secondItem="ek0-Fz-lTi" secondAttribute="trailing" constant="79" id="3a8-2x-P0W"/>
+                            <constraint firstItem="Lzt-nA-dr4" firstAttribute="bottom" secondItem="ek0-Fz-lTi" secondAttribute="bottom" constant="183" id="5jh-wG-F0U"/>
+                            <constraint firstItem="dEa-KT-5YG" firstAttribute="top" secondItem="Lzt-nA-dr4" secondAttribute="top" constant="47" id="5nN-jU-jtv"/>
+                            <constraint firstItem="ek0-Fz-lTi" firstAttribute="top" secondItem="dEa-KT-5YG" secondAttribute="bottom" constant="52" id="7HD-K0-64v"/>
+                            <constraint firstItem="ek0-Fz-lTi" firstAttribute="leading" secondItem="Lzt-nA-dr4" secondAttribute="leading" constant="99" id="C4d-9C-VEp"/>
+                            <constraint firstItem="Lzt-nA-dr4" firstAttribute="trailing" secondItem="dEa-KT-5YG" secondAttribute="trailing" constant="68" id="dFB-wh-KsX"/>
+                            <constraint firstItem="dEa-KT-5YG" firstAttribute="leading" secondItem="Lzt-nA-dr4" secondAttribute="leading" constant="67" id="eNy-9H-3RB"/>
+                            <constraint firstItem="ek0-Fz-lTi" firstAttribute="top" secondItem="dEa-KT-5YG" secondAttribute="bottom" constant="52" id="j1M-cz-CfU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Lzt-nA-dr4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ztn-9g-g2J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="188" y="-100.29985007496252"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Sosha" width="392" height="392"/>
+    </resources>
 </document>
